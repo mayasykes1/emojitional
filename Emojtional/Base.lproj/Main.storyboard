@@ -22,12 +22,12 @@
                                 <rect key="frame" x="84" y="124" width="207" height="294"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="294" id="DgZ-pw-8p2"/>
-                                    <constraint firstAttribute="width" constant="246" id="TRm-Ho-b6r"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="207" id="uVN-zF-NsR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="135"/>
                                 <state key="normal" title="🥰"/>
                                 <connections>
-                                    <action selector="heartFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hq2-ly-Des"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qLZ-24-4dX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tBs-QM-4FO">
@@ -35,7 +35,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="135"/>
                                 <state key="normal" title="🥴"/>
                                 <connections>
-                                    <action selector="oyFaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FA2-K5-qJT"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oEW-Tq-CwM"/>
                                 </connections>
                             </button>
                         </subviews>
